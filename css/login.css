@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border:none;
+
+}
+
+body{
+    
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+section{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.container-login{
+    text-align: center;
+    
+    background-color:rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    border-radius: 2%;
+    padding: 25px 25px 25px 25px ;
+    word-wrap: break-word;
+    box-shadow:0px 0px 1px black ;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    border-bottom: 2px solid rgb(110, 108, 108);
+    padding: 10px;   
+
+
+    margin-bottom: 20px;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+    
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase ;
+    border: none;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: rgb(152, 108, 189);
+    color: aliceblue;
+  
+    
+
+
+
+}
+
+
